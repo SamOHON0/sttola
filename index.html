@@ -1,0 +1,2534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>St Tola Irish Goat Cheese | Handcrafted in the Burren, Co Clare</title>
+  <meta name="description" content="Award-winning Irish goat cheese, handmade on a small family farm in Inagh, Co Clare since 1999. World Cheese Awards Super Gold winner. Order online or find a stockist.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.st-tola.ie/">
+
+  <meta property="og:title" content="St Tola Irish Goat Cheese | Handcrafted in the Burren">
+  <meta property="og:description" content="Award-winning Irish goat cheese, handmade in Co Clare since 1999. Internationally recognised, locally rooted.">
+  <meta property="og:url" content="https://www.st-tola.ie/">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://www.st-tola.ie/sites/st-tola.ie/files/styles/full_saint/public/group.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="St Tola Irish Goat Cheese">
+  <meta name="twitter:description" content="Award-winning handmade Irish goat cheese from Co Clare.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FoodEstablishment",
+    "name": "St Tola Irish Goat Cheese",
+    "alternateName": "Inagh Farmhouse Cheese Ltd",
+    "url": "https://www.st-tola.ie/",
+    "telephone": "+353656836633",
+    "email": "info@st-tola.ie",
+    "description": "Award-winning handmade Irish goat cheese, produced on a small family farm in the Burren, Co Clare since 1999.",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Gortbofearna",
+      "addressLocality": "Ennistymon",
+      "addressRegion": "Co Clare",
+      "postalCode": "V95 XA9C",
+      "addressCountry": "IE"
+    },
+    "areaServed": "Worldwide",
+    "sameAs": [
+      "https://www.facebook.com/sainttola/",
+      "https://www.instagram.com/st.tolaqueen/",
+      "https://twitter.com/sttolacheese"
+    ]
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Where can I buy St Tola cheese?",
+        "acceptedAnswer": {"@type": "Answer", "text": "St Tola is stocked in good cheesemongers, delis and supermarkets across Ireland and abroad, including Neal's Yard in London. You can also order directly from our online shop."}
+      },
+      {
+        "@type": "Question",
+        "name": "Is St Tola cheese suitable for vegetarians?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Yes. All St Tola cheeses are made with vegetarian rennet."}
+      },
+      {
+        "@type": "Question",
+        "name": "Can I visit the farm?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Yes. We host public farm tours throughout the season where you can meet the goats, see the milking parlour and taste our full range of cheeses. Check our News page for upcoming dates."}
+      },
+      {
+        "@type": "Question",
+        "name": "How should I store St Tola cheese?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Keep it refrigerated between 2 and 8 degrees Celsius. For the best flavour, remove from the fridge 30 minutes before serving."}
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    :root {
+      --bg: #f4f8fa;
+      --bg-cream: #ffffff;
+      --bg-warm: #e6eff3;
+      --bg-sky: #d4e4ec;
+      --ink: #1a2a32;
+      --ink-soft: #3d5460;
+      --moss: #3d6b3a;
+      --moss-deep: #264a25;
+      --sage: #8aa37c;
+      --sky: #6fa3bf;
+      --sky-deep: #4a7d96;
+      --ochre: #c08148;
+      --ochre-deep: #9a5f2d;
+      --stone: #c9d4dc;
+      --line: rgba(26, 42, 50, 0.1);
+      --radius: 4px;
+      --radius-lg: 18px;
+      --max: 1280px;
+      --pad: clamp(20px, 4vw, 56px);
+      --display: 'Fraunces', Georgia, serif;
+      --body: 'Inter', system-ui, sans-serif;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: var(--body);
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.6;
+      font-weight: 400;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a { color: inherit; text-decoration: none; }
+    img { max-width: 100%; display: block; }
+
+    .container {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 0 var(--pad);
+    }
+
+    /* ===== NAV ===== */
+    .nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 100;
+      padding: 18px 0;
+      transition: all 0.3s ease;
+      background: transparent;
+    }
+    .nav.scrolled {
+      background: rgba(244, 239, 230, 0.92);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      padding: 12px 0;
+      border-bottom: 1px solid var(--line);
+    }
+    .nav-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+    }
+    .brand {
+      font-family: var(--display);
+      font-weight: 500;
+      font-size: 24px;
+      letter-spacing: -0.01em;
+      color: var(--ink);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .brand-mark {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background: var(--moss);
+      display: grid;
+      place-items: center;
+      color: var(--bg-cream);
+      font-family: var(--display);
+      font-weight: 600;
+      font-size: 17px;
+      font-style: italic;
+    }
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 32px;
+      list-style: none;
+    }
+    .nav-links a {
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--ink-soft);
+      transition: color 0.2s;
+      position: relative;
+    }
+    .nav-links a:hover { color: var(--moss); }
+    .nav-cta {
+      background: var(--moss);
+      color: var(--bg-cream) !important;
+      padding: 10px 20px;
+      border-radius: 100px;
+      font-size: 13px;
+      font-weight: 500;
+      letter-spacing: 0.02em;
+      transition: all 0.25s;
+    }
+    .nav-cta:hover { background: var(--moss-deep); transform: translateY(-1px); }
+    .hamburger {
+      display: none;
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 8px;
+    }
+    .hamburger span {
+      display: block;
+      width: 24px;
+      height: 2px;
+      background: var(--ink);
+      margin: 5px 0;
+      transition: 0.3s;
+    }
+
+    /* ===== HERO ===== */
+    .hero {
+      min-height: 100vh;
+      position: relative;
+      display: flex;
+      align-items: center;
+      padding: 140px 0 80px;
+      overflow: hidden;
+    }
+    .hero-bg {
+      position: absolute;
+      inset: 0;
+      z-index: 0;
+    }
+    .hero-bg::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse at top right, rgba(111, 163, 191, 0.18), transparent 60%),
+        radial-gradient(ellipse at bottom left, rgba(61, 107, 58, 0.12), transparent 55%),
+        radial-gradient(ellipse at top left, rgba(192, 129, 72, 0.06), transparent 50%);
+    }
+    .hero-grid {
+      position: relative;
+      z-index: 2;
+      display: grid;
+      grid-template-columns: 1.05fr 0.95fr;
+      gap: clamp(40px, 6vw, 80px);
+      align-items: center;
+      width: 100%;
+    }
+    .hero-eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--moss);
+      margin-bottom: 28px;
+    }
+    .hero-eyebrow::before {
+      content: '';
+      width: 32px;
+      height: 1px;
+      background: var(--moss);
+    }
+    .hero h1 {
+      font-family: var(--display);
+      font-weight: 400;
+      font-size: clamp(48px, 7vw, 96px);
+      line-height: 0.98;
+      letter-spacing: -0.03em;
+      color: var(--ink);
+      margin-bottom: 28px;
+    }
+    .hero h1 em {
+      font-style: italic;
+      color: var(--moss);
+      font-weight: 400;
+    }
+    .hero p.lead {
+      font-size: clamp(17px, 1.4vw, 19px);
+      color: var(--ink-soft);
+      max-width: 520px;
+      margin-bottom: 40px;
+      line-height: 1.55;
+    }
+    .hero-ctas {
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 16px 28px;
+      border-radius: 100px;
+      font-size: 14px;
+      font-weight: 500;
+      letter-spacing: 0.02em;
+      cursor: pointer;
+      transition: all 0.25s;
+      border: none;
+      font-family: inherit;
+    }
+    .btn-primary {
+      background: var(--moss);
+      color: var(--bg-cream);
+    }
+    .btn-primary:hover {
+      background: var(--moss-deep);
+      transform: translateY(-2px);
+      box-shadow: 0 12px 30px -10px rgba(47, 74, 42, 0.5);
+    }
+    .btn-ghost {
+      background: transparent;
+      color: var(--ink);
+      border: 1px solid var(--ink);
+    }
+    .btn-ghost:hover {
+      background: var(--ink);
+      color: var(--bg-cream);
+    }
+    .hero-meta {
+      display: flex;
+      gap: 32px;
+      margin-top: 56px;
+      padding-top: 32px;
+      border-top: 1px solid var(--line);
+      flex-wrap: wrap;
+    }
+    .hero-meta-item .num {
+      font-family: var(--display);
+      font-size: 32px;
+      color: var(--moss);
+      font-weight: 500;
+      line-height: 1;
+      margin-bottom: 6px;
+    }
+    .hero-meta-item .label {
+      font-size: 12px;
+      color: var(--ink-soft);
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    /* Hero visual */
+    .hero-visual {
+      position: relative;
+      aspect-ratio: 4/5;
+      max-width: 540px;
+      justify-self: end;
+      width: 100%;
+    }
+    .hero-img-main {
+      position: absolute;
+      inset: 0;
+      border-radius: 280px 280px 24px 24px;
+      overflow: hidden;
+      box-shadow: 0 40px 80px -30px rgba(29, 36, 25, 0.35);
+    }
+    .hero-img-main img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      filter: saturate(1.05);
+    }
+    .hero-img-accent {
+      position: absolute;
+      bottom: -40px;
+      left: -40px;
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      overflow: hidden;
+      border: 8px solid var(--bg);
+      box-shadow: 0 20px 50px -15px rgba(29, 36, 25, 0.35);
+      z-index: 3;
+    }
+    .hero-img-accent img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .hero-badge {
+      position: absolute;
+      top: 30px;
+      right: -30px;
+      width: 140px;
+      height: 140px;
+      background: var(--ochre);
+      color: var(--bg-cream);
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      text-align: center;
+      font-family: var(--display);
+      font-style: italic;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 1.25;
+      padding: 20px;
+      z-index: 4;
+      box-shadow: 0 16px 40px -10px rgba(184, 116, 58, 0.5);
+      transform: rotate(-8deg);
+      transition: transform 0.6s cubic-bezier(.34,1.56,.64,1);
+    }
+    .hero-badge:hover { transform: rotate(0deg) scale(1.05); }
+    .hero-badge span {
+      display: block;
+    }
+
+    /* SVG leaf accents */
+    .leaf-accent {
+      position: absolute;
+      pointer-events: none;
+      opacity: 0.6;
+    }
+    .leaf-accent.l1 {
+      top: 18%;
+      left: -40px;
+      width: 200px;
+      transform: rotate(-25deg);
+      opacity: 0.35;
+    }
+    .leaf-accent.l2 {
+      bottom: 8%;
+      right: 6%;
+      width: 140px;
+      transform: rotate(30deg);
+      opacity: 0.3;
+    }
+
+    /* ===== MARQUEE STRIP ===== */
+    .marquee {
+      background: var(--sky-deep);
+      color: var(--bg-cream);
+      padding: 20px 0;
+      overflow: hidden;
+      position: relative;
+    }
+    .marquee-track {
+      display: flex;
+      gap: 60px;
+      animation: scroll 30s linear infinite;
+      white-space: nowrap;
+      width: max-content;
+    }
+    .marquee-item {
+      font-family: var(--display);
+      font-style: italic;
+      font-size: 22px;
+      font-weight: 400;
+      display: flex;
+      align-items: center;
+      gap: 60px;
+    }
+    .marquee-item::after {
+      content: '✦';
+      color: var(--ochre);
+      font-style: normal;
+    }
+    @keyframes scroll {
+      to { transform: translateX(-50%); }
+    }
+
+    /* ===== SECTION BASE ===== */
+    section { padding: clamp(80px, 10vw, 140px) 0; position: relative; }
+    .section-eyebrow {
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--moss);
+      margin-bottom: 20px;
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .section-eyebrow::before {
+      content: '';
+      width: 28px;
+      height: 1px;
+      background: var(--moss);
+    }
+    h2.section-title {
+      font-family: var(--display);
+      font-weight: 400;
+      font-size: clamp(36px, 5vw, 64px);
+      line-height: 1.02;
+      letter-spacing: -0.025em;
+      color: var(--ink);
+      margin-bottom: 24px;
+      max-width: 900px;
+    }
+    h2.section-title em {
+      font-style: italic;
+      color: var(--moss);
+    }
+    .section-intro {
+      font-size: 18px;
+      color: var(--ink-soft);
+      max-width: 620px;
+      line-height: 1.6;
+    }
+
+    /* ===== STORY SECTION ===== */
+    .story {
+      background: var(--bg-cream);
+      position: relative;
+    }
+    .story-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: clamp(40px, 6vw, 80px);
+      align-items: center;
+      margin-top: 60px;
+    }
+    .story-visual {
+      position: relative;
+      aspect-ratio: 5/6;
+    }
+    .story-img-1, .story-img-2 {
+      position: absolute;
+      overflow: hidden;
+      border-radius: var(--radius-lg);
+      box-shadow: 0 30px 70px -25px rgba(29, 36, 25, 0.4);
+    }
+    .story-img-1 {
+      top: 0;
+      left: 0;
+      width: 70%;
+      height: 70%;
+      z-index: 2;
+    }
+    .story-img-2 {
+      bottom: 0;
+      right: 0;
+      width: 60%;
+      height: 55%;
+      border: 8px solid var(--bg-cream);
+    }
+    .story-img-1 img, .story-img-2 img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .story-content p {
+      font-size: 17px;
+      color: var(--ink-soft);
+      margin-bottom: 20px;
+      line-height: 1.7;
+    }
+    .story-content p.large {
+      font-family: var(--display);
+      font-size: clamp(20px, 1.7vw, 24px);
+      color: var(--ink);
+      font-weight: 400;
+      line-height: 1.45;
+      font-style: italic;
+    }
+    .signature {
+      font-family: var(--display);
+      font-style: italic;
+      font-size: 22px;
+      color: var(--moss);
+      margin-top: 32px;
+      font-weight: 500;
+    }
+    .signature small {
+      display: block;
+      font-family: var(--body);
+      font-style: normal;
+      font-size: 13px;
+      color: var(--ink-soft);
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      margin-top: 4px;
+      font-weight: 500;
+    }
+
+    /* ===== CHEESES GRID ===== */
+    .cheeses {
+      background: linear-gradient(180deg, var(--bg) 0%, var(--bg-warm) 100%);
+    }
+
+    /* ===== SAMPLER / TASTING FLIGHT ===== */
+    .sampler {
+      background: var(--bg-cream);
+      position: relative;
+      overflow: hidden;
+    }
+    .sampler-topo {
+      position: absolute;
+      inset: 0;
+      opacity: 0.04;
+      pointer-events: none;
+      background-image:
+        radial-gradient(circle at 20% 30%, var(--moss) 1px, transparent 1px),
+        radial-gradient(circle at 70% 60%, var(--sky-deep) 1px, transparent 1px);
+      background-size: 80px 80px, 120px 120px;
+    }
+    .sampler-head {
+      text-align: center;
+      max-width: 720px;
+      margin: 0 auto 80px;
+    }
+    .sampler-head .section-eyebrow { display: inline-flex; }
+    .sampler-head h2 { margin: 0 auto 24px; }
+    .sampler-head p { margin: 0 auto; }
+
+    .flight {
+      display: grid;
+      gap: 80px;
+      position: relative;
+      z-index: 1;
+    }
+    .flight-item {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: clamp(40px, 6vw, 100px);
+      align-items: center;
+    }
+    .flight-item.reverse {
+      direction: rtl;
+    }
+    .flight-item.reverse > * {
+      direction: ltr;
+    }
+    .flight-visual {
+      position: relative;
+      aspect-ratio: 1;
+    }
+    .flight-img {
+      position: absolute;
+      inset: 0;
+      border-radius: 50%;
+      overflow: hidden;
+      box-shadow: 0 40px 80px -30px rgba(26, 42, 50, 0.4);
+    }
+    .flight-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.8s ease;
+    }
+    .flight-item:hover .flight-img img { transform: scale(1.05); }
+    .flight-circle-bg {
+      position: absolute;
+      inset: 20px;
+      border-radius: 50%;
+      background: var(--bg-sky);
+      z-index: -1;
+      transform: translate(20px, 20px);
+    }
+    .flight-item:nth-child(2) .flight-circle-bg { background: var(--moss); opacity: 0.15; }
+    .flight-item:nth-child(3) .flight-circle-bg { background: var(--ochre); opacity: 0.2; }
+
+    .flight-number {
+      position: absolute;
+      top: -20px;
+      left: -20px;
+      width: 80px;
+      height: 80px;
+      background: var(--bg-cream);
+      border: 1px solid var(--line);
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      font-family: var(--display);
+      font-style: italic;
+      font-size: 32px;
+      color: var(--moss);
+      font-weight: 500;
+      z-index: 2;
+      box-shadow: 0 10px 30px -10px rgba(26, 42, 50, 0.2);
+    }
+
+    .flight-content .flight-eyebrow {
+      font-size: 11px;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--ochre);
+      font-weight: 600;
+      margin-bottom: 16px;
+    }
+    .flight-content h3 {
+      font-family: var(--display);
+      font-size: clamp(36px, 4vw, 52px);
+      font-weight: 400;
+      line-height: 1.02;
+      letter-spacing: -0.025em;
+      color: var(--ink);
+      margin-bottom: 20px;
+    }
+    .flight-content h3 em {
+      font-style: italic;
+      color: var(--moss);
+    }
+    .flight-content > p {
+      font-size: 17px;
+      color: var(--ink-soft);
+      line-height: 1.65;
+      margin-bottom: 28px;
+    }
+    .tasting-notes {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0;
+      margin-bottom: 28px;
+      border-top: 1px solid var(--line);
+    }
+    .tasting-note {
+      padding: 18px 0;
+      border-bottom: 1px solid var(--line);
+    }
+    .tasting-note:nth-child(odd) {
+      padding-right: 20px;
+      border-right: 1px solid var(--line);
+    }
+    .tasting-note:nth-child(even) {
+      padding-left: 20px;
+    }
+    .tasting-note .tn-label {
+      font-size: 10px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--ink-soft);
+      margin-bottom: 6px;
+      font-weight: 600;
+    }
+    .tasting-note .tn-value {
+      font-family: var(--display);
+      font-size: 17px;
+      color: var(--ink);
+      line-height: 1.3;
+    }
+    .pairings {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 32px;
+    }
+    .pairing {
+      background: var(--bg-sky);
+      color: var(--sky-deep);
+      padding: 7px 14px;
+      border-radius: 100px;
+      font-size: 13px;
+      font-weight: 500;
+    }
+    .flight-cta {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--moss);
+      font-weight: 500;
+      font-size: 14px;
+      letter-spacing: 0.02em;
+      padding-bottom: 4px;
+      border-bottom: 1px solid var(--moss);
+      transition: gap 0.25s;
+    }
+    .flight-cta:hover { gap: 16px; }
+
+    /* ===== QUOTE BAND ===== */
+    .quote-band {
+      background: var(--moss-deep);
+      color: var(--bg-cream);
+      padding: clamp(60px, 8vw, 100px) 0;
+      position: relative;
+      overflow: hidden;
+    }
+    .quote-band::before {
+      content: '"';
+      position: absolute;
+      top: -80px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-family: var(--display);
+      font-size: 500px;
+      color: var(--ochre);
+      opacity: 0.08;
+      line-height: 1;
+      pointer-events: none;
+    }
+    .quote-band-inner {
+      max-width: 880px;
+      margin: 0 auto;
+      text-align: center;
+      position: relative;
+      z-index: 2;
+    }
+    .quote-band blockquote {
+      font-family: var(--display);
+      font-size: clamp(24px, 3.2vw, 38px);
+      font-weight: 400;
+      line-height: 1.25;
+      letter-spacing: -0.015em;
+      font-style: italic;
+      margin-bottom: 32px;
+    }
+    .quote-band cite {
+      font-style: normal;
+      font-size: 13px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--ochre);
+      font-weight: 500;
+    }
+    .quote-band cite span {
+      display: block;
+      color: rgba(255, 255, 255, 0.6);
+      letter-spacing: 0.04em;
+      text-transform: none;
+      font-size: 12px;
+      margin-top: 6px;
+    }
+    .cheeses-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      margin-bottom: 60px;
+      gap: 40px;
+      flex-wrap: wrap;
+    }
+    .cheese-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 24px;
+    }
+    .cheese-card {
+      background: var(--bg-cream);
+      border-radius: var(--radius-lg);
+      padding: 24px;
+      transition: all 0.35s cubic-bezier(.34,1.56,.64,1);
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+      border: 1px solid transparent;
+    }
+    .cheese-card:hover {
+      transform: translateY(-6px);
+      border-color: var(--moss);
+      box-shadow: 0 30px 50px -20px rgba(29, 36, 25, 0.25);
+    }
+    .cheese-img {
+      aspect-ratio: 1;
+      border-radius: 50%;
+      overflow: hidden;
+      margin-bottom: 20px;
+      background: var(--bg-sky);
+      position: relative;
+    }
+    .cheese-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.5s ease;
+    }
+    .cheese-card:hover .cheese-img img {
+      transform: scale(1.08);
+    }
+    .cheese-name {
+      font-family: var(--display);
+      font-size: 22px;
+      font-weight: 500;
+      color: var(--ink);
+      margin-bottom: 6px;
+      letter-spacing: -0.01em;
+    }
+    .cheese-desc {
+      font-size: 14px;
+      color: var(--ink-soft);
+      line-height: 1.5;
+    }
+    .cheese-tag {
+      position: absolute;
+      top: 16px;
+      right: 16px;
+      background: var(--ochre);
+      color: var(--bg-cream);
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 5px 10px;
+      border-radius: 100px;
+      z-index: 2;
+    }
+
+    /* ===== CRAFT / PROCESS ===== */
+    .craft {
+      background: var(--moss-deep);
+      color: var(--bg-cream);
+      position: relative;
+      overflow: hidden;
+    }
+    .craft .section-eyebrow { color: var(--ochre); }
+    .craft .section-eyebrow::before { background: var(--ochre); }
+    .craft h2.section-title { color: var(--bg-cream); }
+    .craft h2.section-title em { color: var(--ochre); }
+    .craft .section-intro { color: rgba(250, 246, 237, 0.75); }
+    .steps {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 32px;
+      margin-top: 80px;
+      position: relative;
+    }
+    .step {
+      position: relative;
+      padding-top: 32px;
+    }
+    .step-num {
+      font-family: var(--display);
+      font-style: italic;
+      font-size: 80px;
+      color: var(--ochre);
+      font-weight: 400;
+      line-height: 0.8;
+      margin-bottom: 24px;
+      opacity: 0.9;
+    }
+    .step h4 {
+      font-family: var(--display);
+      font-size: 24px;
+      font-weight: 500;
+      margin-bottom: 12px;
+      color: var(--bg-cream);
+    }
+    .step p {
+      font-size: 15px;
+      color: rgba(250, 246, 237, 0.7);
+      line-height: 1.6;
+    }
+    .craft-leaf {
+      position: absolute;
+      opacity: 0.08;
+      pointer-events: none;
+    }
+    .craft-leaf.t {
+      top: -50px;
+      right: -50px;
+      width: 400px;
+      transform: rotate(45deg);
+    }
+
+    /* ===== AWARDS / RECOGNITION ===== */
+    .awards {
+      background: var(--bg-sky);
+    }
+    .awards-grid {
+      display: grid;
+      grid-template-columns: 1fr 1.2fr;
+      gap: clamp(40px, 6vw, 80px);
+      align-items: center;
+      margin-top: 60px;
+    }
+    .awards-image {
+      aspect-ratio: 4/5;
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      box-shadow: 0 30px 70px -25px rgba(29, 36, 25, 0.4);
+      position: relative;
+    }
+    .awards-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .awards-list {
+      display: grid;
+      gap: 24px;
+    }
+    .award-item {
+      padding: 28px 0;
+      border-bottom: 1px solid var(--line);
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      gap: 24px;
+      align-items: center;
+    }
+    .award-item:first-child { border-top: 1px solid var(--line); }
+    .award-year {
+      font-family: var(--display);
+      font-size: 28px;
+      color: var(--moss);
+      font-weight: 500;
+      line-height: 1;
+    }
+    .award-text h4 {
+      font-family: var(--display);
+      font-size: 19px;
+      font-weight: 500;
+      color: var(--ink);
+      margin-bottom: 4px;
+      letter-spacing: -0.01em;
+    }
+    .award-text p {
+      font-size: 14px;
+      color: var(--ink-soft);
+    }
+    .award-badge {
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      background: var(--ochre);
+      display: grid;
+      place-items: center;
+      color: var(--bg-cream);
+      flex-shrink: 0;
+    }
+
+    /* ===== RECIPES ===== */
+    .recipes-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      margin-bottom: 60px;
+      gap: 40px;
+      flex-wrap: wrap;
+    }
+    .recipe-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 24px;
+    }
+    .recipe-card {
+      position: relative;
+      aspect-ratio: 3/4;
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      cursor: pointer;
+      transition: transform 0.4s ease;
+    }
+    .recipe-card:hover { transform: translateY(-6px); }
+    .recipe-card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.6s ease;
+    }
+    .recipe-card:hover img { transform: scale(1.08); }
+    .recipe-card::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, rgba(29, 36, 25, 0.85), transparent 50%);
+    }
+    .recipe-meta {
+      position: absolute;
+      bottom: 24px;
+      left: 24px;
+      right: 24px;
+      z-index: 2;
+      color: var(--bg-cream);
+    }
+    .recipe-meta .chef {
+      font-size: 12px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      opacity: 0.85;
+      margin-bottom: 8px;
+    }
+    .recipe-meta h4 {
+      font-family: var(--display);
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 1.2;
+      letter-spacing: -0.01em;
+    }
+
+    /* ===== FARM VISIT CTA ===== */
+    .visit {
+      background: var(--bg-cream);
+      position: relative;
+    }
+    .visit-inner {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0;
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      box-shadow: 0 30px 70px -25px rgba(29, 36, 25, 0.25);
+    }
+    .visit-text {
+      background: var(--moss);
+      color: var(--bg-cream);
+      padding: clamp(40px, 5vw, 72px);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .visit-text .section-eyebrow { color: var(--ochre); }
+    .visit-text .section-eyebrow::before { background: var(--ochre); }
+    .visit-text h2 {
+      font-family: var(--display);
+      font-weight: 400;
+      font-size: clamp(32px, 4vw, 48px);
+      line-height: 1.05;
+      letter-spacing: -0.02em;
+      margin-bottom: 20px;
+      color: var(--bg-cream);
+    }
+    .visit-text h2 em {
+      font-style: italic;
+      color: var(--ochre);
+    }
+    .visit-text p {
+      color: rgba(250, 246, 237, 0.85);
+      margin-bottom: 32px;
+      font-size: 16px;
+      line-height: 1.65;
+    }
+    .visit-img {
+      min-height: 400px;
+      background-size: cover;
+      background-position: center;
+    }
+    .btn-light {
+      background: var(--bg-cream);
+      color: var(--moss-deep);
+      align-self: flex-start;
+    }
+    .btn-light:hover {
+      background: var(--ochre);
+      color: var(--bg-cream);
+      transform: translateY(-2px);
+    }
+
+    /* ===== FAQ ===== */
+    .faq {
+      background: var(--bg-cream);
+    }
+    .faq-inner {
+      max-width: 820px;
+      margin: 60px auto 0;
+    }
+    .faq-item {
+      border-bottom: 1px solid var(--line);
+    }
+    .faq-q {
+      width: 100%;
+      text-align: left;
+      background: none;
+      border: none;
+      padding: 28px 0;
+      font-family: var(--display);
+      font-size: clamp(18px, 1.6vw, 22px);
+      font-weight: 500;
+      color: var(--ink);
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 24px;
+      letter-spacing: -0.01em;
+    }
+    .faq-q::after {
+      content: '';
+      width: 14px;
+      height: 14px;
+      border-right: 1.5px solid var(--moss);
+      border-bottom: 1.5px solid var(--moss);
+      transform: rotate(45deg);
+      transition: transform 0.3s;
+      flex-shrink: 0;
+    }
+    .faq-item.open .faq-q::after {
+      transform: rotate(-135deg);
+    }
+    .faq-a {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.4s ease, padding 0.3s ease;
+      color: var(--ink-soft);
+      font-size: 16px;
+      line-height: 1.7;
+    }
+    .faq-item.open .faq-a {
+      max-height: 400px;
+      padding-bottom: 28px;
+    }
+
+    /* ===== CONTACT ===== */
+    .contact {
+      background: var(--moss-deep);
+      color: var(--bg-cream);
+    }
+    .contact .section-eyebrow { color: var(--ochre); }
+    .contact .section-eyebrow::before { background: var(--ochre); }
+    .contact h2 { color: var(--bg-cream); }
+    .contact h2 em { color: var(--ochre); }
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: clamp(40px, 6vw, 80px);
+      margin-top: 60px;
+    }
+    .contact-info p {
+      color: rgba(250, 246, 237, 0.8);
+      margin-bottom: 32px;
+      font-size: 17px;
+      line-height: 1.65;
+    }
+    .contact-list {
+      list-style: none;
+      display: grid;
+      gap: 16px;
+    }
+    .contact-list li {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      padding: 18px 20px;
+      background: rgba(250, 246, 237, 0.06);
+      border-radius: 12px;
+      transition: background 0.2s;
+    }
+    .contact-list li:hover { background: rgba(250, 246, 237, 0.1); }
+    .contact-list a {
+      color: var(--bg-cream);
+      font-size: 15px;
+      flex: 1;
+    }
+    .contact-list svg { color: var(--ochre); flex-shrink: 0; }
+
+    .form { display: grid; gap: 16px; }
+    .form input, .form textarea {
+      background: rgba(250, 246, 237, 0.08);
+      border: 1px solid rgba(250, 246, 237, 0.15);
+      color: var(--bg-cream);
+      padding: 16px 20px;
+      border-radius: 12px;
+      font-family: inherit;
+      font-size: 15px;
+      transition: all 0.2s;
+    }
+    .form input:focus, .form textarea:focus {
+      outline: none;
+      border-color: var(--ochre);
+      background: rgba(250, 246, 237, 0.12);
+    }
+    .form input::placeholder, .form textarea::placeholder {
+      color: rgba(250, 246, 237, 0.5);
+    }
+    .form textarea { resize: vertical; min-height: 120px; }
+    .form button {
+      background: var(--ochre);
+      color: var(--bg-cream);
+      padding: 16px 28px;
+      border-radius: 100px;
+      font-weight: 500;
+      cursor: pointer;
+      border: none;
+      font-family: inherit;
+      font-size: 14px;
+      transition: all 0.25s;
+      justify-self: start;
+    }
+    .form button:hover { background: var(--ochre-deep); transform: translateY(-2px); }
+
+    /* ===== FOOTER ===== */
+    .footer {
+      background: var(--ink);
+      color: rgba(250, 246, 237, 0.7);
+      padding: 70px 0 30px;
+    }
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 1.5fr 1fr 1fr 1fr;
+      gap: 40px;
+      margin-bottom: 50px;
+    }
+    .footer-brand .brand { color: var(--bg-cream); margin-bottom: 16px; }
+    .footer-brand p { font-size: 14px; line-height: 1.6; max-width: 320px; }
+    .footer h5 {
+      font-family: var(--display);
+      color: var(--bg-cream);
+      font-weight: 500;
+      font-size: 17px;
+      margin-bottom: 18px;
+    }
+    .footer ul { list-style: none; display: grid; gap: 10px; }
+    .footer ul a {
+      font-size: 14px;
+      transition: color 0.2s;
+    }
+    .footer ul a:hover { color: var(--ochre); }
+    .footer-socials {
+      display: flex;
+      gap: 12px;
+      margin-top: 20px;
+    }
+    .footer-socials a {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: rgba(250, 246, 237, 0.08);
+      display: grid;
+      place-items: center;
+      transition: all 0.25s;
+    }
+    .footer-socials a:hover {
+      background: var(--ochre);
+      color: var(--bg-cream);
+      transform: translateY(-2px);
+    }
+    .footer-bottom {
+      padding-top: 30px;
+      border-top: 1px solid rgba(250, 246, 237, 0.1);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 13px;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    /* ===== FLOATING BUTTONS ===== */
+    .whatsapp-float {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      width: 58px;
+      height: 58px;
+      background: #25D366;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      color: white;
+      z-index: 90;
+      box-shadow: 0 8px 30px -5px rgba(37, 211, 102, 0.6);
+      transition: transform 0.25s;
+    }
+    .whatsapp-float:hover { transform: scale(1.08); }
+    .whatsapp-float::before {
+      content: '';
+      position: absolute;
+      inset: -6px;
+      border-radius: 50%;
+      border: 2px solid #25D366;
+      opacity: 0.6;
+      animation: pulse 2s ease-out infinite;
+    }
+    @keyframes pulse {
+      0% { transform: scale(1); opacity: 0.6; }
+      100% { transform: scale(1.35); opacity: 0; }
+    }
+    .wa-tooltip {
+      position: absolute;
+      right: 70px;
+      top: 50%;
+      transform: translateY(-50%);
+      background: var(--ink);
+      color: var(--bg-cream);
+      padding: 8px 14px;
+      border-radius: 8px;
+      font-size: 13px;
+      white-space: nowrap;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.2s;
+    }
+    .whatsapp-float:hover .wa-tooltip { opacity: 1; }
+
+    .chat-btn {
+      position: fixed;
+      bottom: 96px;
+      right: 24px;
+      width: 58px;
+      height: 58px;
+      background: var(--moss);
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      color: var(--bg-cream);
+      cursor: pointer;
+      z-index: 90;
+      box-shadow: 0 8px 30px -5px rgba(47, 74, 42, 0.5);
+      transition: transform 0.25s;
+      border: none;
+    }
+    .chat-btn:hover { transform: scale(1.08); }
+    .chat-badge {
+      position: absolute;
+      top: -2px;
+      right: -2px;
+      width: 18px;
+      height: 18px;
+      background: var(--ochre);
+      border-radius: 50%;
+      color: white;
+      font-size: 11px;
+      font-weight: 600;
+      display: grid;
+      place-items: center;
+      border: 2px solid var(--bg);
+    }
+    .chat-window {
+      position: fixed;
+      bottom: 168px;
+      right: 24px;
+      width: 360px;
+      max-width: calc(100vw - 48px);
+      max-height: 540px;
+      background: var(--bg-cream);
+      border-radius: 18px;
+      box-shadow: 0 20px 60px -10px rgba(29, 36, 25, 0.4);
+      display: none;
+      flex-direction: column;
+      z-index: 91;
+      overflow: hidden;
+    }
+    .chat-window.open { display: flex; }
+    .chat-header {
+      background: var(--moss);
+      color: var(--bg-cream);
+      padding: 18px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .chat-header-info {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+    }
+    .chat-avatar {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background: var(--ochre);
+      display: grid;
+      place-items: center;
+      font-family: var(--display);
+      font-style: italic;
+      font-weight: 500;
+      font-size: 16px;
+    }
+    .chat-header-text h6 {
+      font-family: var(--display);
+      font-size: 16px;
+      font-weight: 500;
+    }
+    .chat-status {
+      font-size: 11px;
+      opacity: 0.85;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .chat-status::before {
+      content: '';
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: #4ade80;
+    }
+    .chat-close {
+      background: none;
+      border: none;
+      color: var(--bg-cream);
+      cursor: pointer;
+      font-size: 22px;
+      line-height: 1;
+      padding: 4px 8px;
+    }
+    .chat-messages {
+      flex: 1;
+      overflow-y: auto;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .msg {
+      padding: 10px 14px;
+      border-radius: 14px;
+      font-size: 14px;
+      line-height: 1.45;
+      max-width: 80%;
+    }
+    .msg.bot {
+      background: var(--bg-warm);
+      color: var(--ink);
+      align-self: flex-start;
+      border-bottom-left-radius: 4px;
+    }
+    .msg.user {
+      background: var(--moss);
+      color: var(--bg-cream);
+      align-self: flex-end;
+      border-bottom-right-radius: 4px;
+    }
+    .chat-chips {
+      padding: 0 20px 12px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .chip {
+      background: transparent;
+      border: 1px solid var(--moss);
+      color: var(--moss);
+      padding: 8px 14px;
+      border-radius: 100px;
+      cursor: pointer;
+      font-family: inherit;
+      font-size: 12px;
+      font-weight: 500;
+      transition: all 0.2s;
+    }
+    .chip:hover {
+      background: var(--moss);
+      color: var(--bg-cream);
+    }
+    .chat-input-row {
+      padding: 12px 16px;
+      display: flex;
+      gap: 8px;
+      border-top: 1px solid var(--line);
+    }
+    .chat-input-row input {
+      flex: 1;
+      border: 1px solid var(--line);
+      border-radius: 100px;
+      padding: 10px 16px;
+      font-family: inherit;
+      font-size: 13px;
+      background: var(--bg);
+    }
+    .chat-input-row input:focus { outline: none; border-color: var(--moss); }
+    .chat-send {
+      background: var(--moss);
+      color: var(--bg-cream);
+      border: none;
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      cursor: pointer;
+      display: grid;
+      place-items: center;
+    }
+    .chat-wa {
+      display: block;
+      background: #25D366;
+      color: white;
+      padding: 12px;
+      text-align: center;
+      font-size: 13px;
+      font-weight: 500;
+    }
+
+    /* ===== RESPONSIVE ===== */
+    @media (max-width: 968px) {
+      .hero-grid { grid-template-columns: 1fr; gap: 60px; }
+      .hero-visual { max-width: 420px; justify-self: center; }
+      .story-grid, .awards-grid, .contact-grid, .visit-inner { grid-template-columns: 1fr; }
+      .cheese-grid, .recipe-grid { grid-template-columns: repeat(2, 1fr); }
+      .steps { grid-template-columns: repeat(2, 1fr); }
+      .footer-grid { grid-template-columns: 1fr 1fr; }
+      .flight-item, .flight-item.reverse { grid-template-columns: 1fr; direction: ltr; gap: 40px; }
+      .flight-visual { max-width: 420px; margin: 0 auto; width: 100%; }
+    }
+    @media (max-width: 768px) {
+      .nav-links { display: none; }
+      .nav-links.open {
+        display: flex;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: var(--bg-cream);
+        flex-direction: column;
+        padding: 24px;
+        gap: 20px;
+        border-bottom: 1px solid var(--line);
+      }
+      .hamburger { display: block; }
+      .hero-badge { width: 110px; height: 110px; right: 10px; font-size: 12px; padding: 14px; }
+      .hero-img-accent { width: 130px; height: 130px; left: -10px; bottom: -20px; }
+      .visit-img { min-height: 260px; }
+      .award-item { grid-template-columns: auto 1fr; }
+      .award-badge { grid-row: 1 / -1; grid-column: 1; }
+      .award-year { grid-column: 2; }
+      .award-text { grid-column: 2; }
+    }
+    @media (max-width: 520px) {
+      .cheese-grid, .recipe-grid { grid-template-columns: 1fr; }
+      .steps { grid-template-columns: 1fr; }
+      .footer-grid { grid-template-columns: 1fr; }
+      .hero-ctas { flex-direction: column; align-items: stretch; }
+      .hero-ctas .btn { justify-content: center; }
+      .hero-meta { gap: 20px; }
+      .chat-window { right: 12px; left: 12px; width: auto; bottom: 160px; }
+      .tasting-notes { grid-template-columns: 1fr; }
+      .tasting-note:nth-child(odd) { padding-right: 0; border-right: none; }
+      .tasting-note:nth-child(even) { padding-left: 0; }
+      .flight-number { width: 64px; height: 64px; font-size: 26px; top: -10px; left: -10px; }
+    }
+
+    /* ===== CRAFT PROCESS STRIP ===== */
+    .craft-strip {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 18px;
+      margin-top: 72px;
+      position: relative;
+      z-index: 1;
+    }
+    .craft-shot {
+      position: relative;
+      aspect-ratio: 4/5;
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      box-shadow: 0 24px 50px -24px rgba(0, 0, 0, 0.6);
+    }
+    .craft-shot img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.7s ease;
+    }
+    .craft-shot:hover img { transform: scale(1.06); }
+    .craft-shot::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, rgba(15, 27, 14, 0.8), transparent 55%);
+    }
+    .craft-shot span {
+      position: absolute;
+      bottom: 16px;
+      left: 18px;
+      z-index: 2;
+      font-family: var(--display);
+      font-style: italic;
+      font-size: 19px;
+      color: var(--bg-cream);
+    }
+    .craft-shot span small {
+      display: block;
+      font-family: var(--body);
+      font-style: normal;
+      font-size: 11px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--ochre);
+      font-weight: 600;
+      margin-bottom: 2px;
+    }
+
+    /* ===== GALLERY ===== */
+    .gallery { background: var(--bg-warm); }
+    .gallery-head {
+      max-width: 720px;
+      margin-bottom: 56px;
+    }
+    .gallery-masonry {
+      columns: 3;
+      column-gap: 20px;
+    }
+    .gallery-item {
+      position: relative;
+      break-inside: avoid;
+      margin-bottom: 20px;
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      box-shadow: 0 20px 44px -26px rgba(26, 42, 50, 0.45);
+      cursor: pointer;
+    }
+    .gallery-item img {
+      width: 100%;
+      height: auto;
+      display: block;
+      transition: transform 0.8s cubic-bezier(.22,1,.36,1);
+    }
+    .gallery-item:hover img { transform: scale(1.05); }
+    .gallery-item figcaption {
+      position: absolute;
+      inset: auto 0 0 0;
+      padding: 40px 18px 16px;
+      background: linear-gradient(to top, rgba(15, 27, 14, 0.82), transparent);
+      color: var(--bg-cream);
+      font-family: var(--display);
+      font-style: italic;
+      font-size: 16px;
+      opacity: 0;
+      transform: translateY(8px);
+      transition: opacity 0.35s ease, transform 0.35s ease;
+    }
+    .gallery-item:hover figcaption { opacity: 1; transform: translateY(0); }
+    @media (max-width: 900px) { .gallery-masonry { columns: 2; } .craft-strip { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 560px) { .gallery-masonry { columns: 1; } }
+  </style>
+</head>
+<body>
+
+  <!-- ===== NAV ===== -->
+  <nav class="nav" id="nav">
+    <div class="container nav-inner">
+      <a href="#" class="brand">
+        <span class="brand-mark">St</span>
+        St Tola
+      </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#story">Our Story</a></li>
+        <li><a href="#cheeses">Cheeses</a></li>
+        <li><a href="#craft">The Craft</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#visit">Visit</a></li>
+        <li><a href="https://st-tola-irish-goat-cheese.myshopify.com/" target="_blank" rel="noopener" class="nav-cta">Shop Online</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero">
+    <div class="hero-bg">
+      <!-- Decorative leaves -->
+      <svg class="leaf-accent l1" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+        <path d="M100 20 Q130 60 120 110 Q110 160 80 180 Q60 130 70 80 Q80 30 100 20 Z" fill="#2f4a2a"/>
+        <path d="M100 20 L90 180" stroke="#1f3019" stroke-width="1.5" fill="none"/>
+      </svg>
+      <svg class="leaf-accent l2" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+        <path d="M100 20 Q140 60 130 120 Q120 170 90 180 Q60 140 70 80 Q80 30 100 20 Z" fill="#6fa3bf"/>
+      </svg>
+    </div>
+    <div class="container hero-grid">
+      <div class="hero-content" data-reveal>
+        <div class="hero-eyebrow">Inagh · Co Clare · Since 1999</div>
+        <h1>Handmade goat cheese from the <em>edge of the Burren</em>.</h1>
+        <p class="lead">Small herd. Sustainable pastures. Cheese made the slow way, the way Siobhán has done it for twenty-five years. Internationally recognised. Locally rooted.</p>
+        <div class="hero-ctas">
+          <a href="https://st-tola-irish-goat-cheese.myshopify.com/" target="_blank" rel="noopener" class="btn btn-primary">
+            Shop Online
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+          </a>
+          <a href="#story" class="btn btn-ghost">Our Story</a>
+        </div>
+        <div class="hero-meta">
+          <div class="hero-meta-item">
+            <div class="num">25+</div>
+            <div class="label">Years cheesemaking</div>
+          </div>
+          <div class="hero-meta-item">
+            <div class="num">10</div>
+            <div class="label">Distinct cheeses</div>
+          </div>
+          <div class="hero-meta-item">
+            <div class="num">Super<br>Gold</div>
+            <div class="label">World Cheese Awards</div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual" data-reveal>
+        <div class="hero-img-main">
+          <img src="assets/img/hero-goat.jpg" alt="A St Tola goat at the farm in Inagh, Co Clare" loading="eager" width="1700" height="1143">
+        </div>
+        <div class="hero-badge">
+          <span>World Cheese<br>Awards<br><em>Super Gold</em></span>
+        </div>
+        <div class="hero-img-accent">
+          <img src="assets/img/cheese-plated.jpg" alt="St Tola goat cheese plated for tasting" loading="eager" width="1300" height="859">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MARQUEE ===== -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <div class="marquee-item">Handmade in Co Clare</div>
+      <div class="marquee-item">Pasture raised</div>
+      <div class="marquee-item">Vegetarian rennet</div>
+      <div class="marquee-item">Award winning</div>
+      <div class="marquee-item">Family farm</div>
+      <div class="marquee-item">Since 1999</div>
+      <div class="marquee-item">Handmade in Co Clare</div>
+      <div class="marquee-item">Pasture raised</div>
+      <div class="marquee-item">Vegetarian rennet</div>
+      <div class="marquee-item">Award winning</div>
+      <div class="marquee-item">Family farm</div>
+      <div class="marquee-item">Since 1999</div>
+    </div>
+  </div>
+
+  <!-- ===== STORY ===== -->
+  <section class="story" id="story">
+    <div class="container">
+      <div class="section-eyebrow" data-reveal>Our Story</div>
+      <h2 class="section-title" data-reveal>A quiet farm. A curious neighbour. <em>Twenty-five years of cheese.</em></h2>
+      <div class="story-grid">
+        <div class="story-visual" data-reveal>
+          <div class="story-img-1">
+            <img src="assets/img/siobhan.jpg" alt="Siobhán Ní Gháirbhith of St Tola with the cheeses" loading="lazy" width="1300" height="867">
+          </div>
+          <div class="story-img-2">
+            <img src="assets/img/herd-field.jpg" alt="The St Tola herd being led across the pasture" loading="lazy" width="1700" height="1135">
+          </div>
+        </div>
+        <div class="story-content" data-reveal>
+          <p class="large">St Tola began as a cottage industry, made on a kitchen table by Meg and Derrick Gordon.</p>
+          <p>In 1999, their neighbour and friend Siobhán Ní Gháirbhith took over the business. What followed was a careful, deliberate growth, from a handful of cheeses sold at the farm gate to an internationally recognised brand stocked in some of the best delis and restaurants in Ireland, the UK and beyond.</p>
+          <p>Eight people now work alongside Siobhán in Gortbofearna. The goats still graze the limestone pastures that fringe the Burren. The cheese is still made by hand. The pace is still set by the season.</p>
+          <div class="signature">
+            Siobhán Ní Gháirbhith
+            <small>Owner & Cheesemaker</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CHEESES ===== -->
+  <section class="cheeses" id="cheeses">
+    <div class="container">
+      <div class="cheeses-header">
+        <div data-reveal>
+          <div class="section-eyebrow">The Range</div>
+          <h2 class="section-title">Ten cheeses, <em>one herd.</em></h2>
+        </div>
+        <p class="section-intro" data-reveal>From the much-loved Original to the bold Ash Log and the silken Greek Style, every cheese is shaped by the same goats, the same hands, and the same patch of west Clare.</p>
+      </div>
+
+      <div class="cheese-grid">
+        <a href="https://www.st-tola.ie/products/st-tola-log" target="_blank" rel="noopener" class="cheese-card" data-reveal>
+          <div class="cheese-tag">Signature</div>
+          <div class="cheese-img"><img src="https://www.st-tola.ie/sites/st-tola.ie/files/styles/circle/public/mature_log_new__0.jpg" alt="St Tola Log"></div>
+          <h3 class="cheese-name">St Tola Log</h3>
+          <p class="cheese-desc">Our most loved. A natural rind log with a clean, citrusy bite.</p>
+        </a>
+        <a href="https://www.st-tola.ie/organiccheese/st-tola-ash-log" target="_blank" rel="noopener" class="cheese-card" data-reveal>
+          <div class="cheese-img"><img src="https://www.st-tola.ie/sites/st-tola.ie/files/styles/circle/public/_l1a4468-edit.jpg" alt="St Tola Ash Log"></div>
+          <h3 class="cheese-name">Ash Log</h3>
+          <p class="cheese-desc">Rolled in vegetable ash. Earthy, soft, dramatic on a board.</p>
+        </a>
+        <a href="https://www.st-tola.ie/products/st-tola-greek-style" target="_blank" rel="noopener" class="cheese-card" data-reveal>
+          <div class="cheese-img"><img src="https://www.st-tola.ie/sites/st-tola.ie/files/styles/circle/public/_l1a4504-edit.jpg" alt="St Tola Greek Style"></div>
+          <h3 class="cheese-name">Greek Style</h3>
+          <p class="cheese-desc">Brined and bright. Crumbles beautifully through salads and roasted veg.</p>
+        </a>
+        <a href="https://www.st-tola.ie/products/st-tola-crottin" target="_blank" rel="noopener" class="cheese-card" data-reveal>
+          <div class="cheese-img"><img src="https://www.st-tola.ie/sites/st-tola.ie/files/styles/circle/public/_l1a4495-edit.jpg" alt="St Tola Crottin"></div>
+          <h3 class="cheese-name">Crottin</h3>
+          <p class="cheese-desc">Small, firm and full-flavoured. A French classic, made the Clare way.</p>
+        </a>
+        <a href="https://www.st-tola.ie/node/912" target="_blank" rel="noopener" class="cheese-card" data-reveal>
+          <div class="cheese-img"><img src="https://www.st-tola.ie/sites/st-tola.ie/files/styles/circle/public/_l1a4497-edit.jpg" alt="St Tola Karst"></div>
+          <h3 class="cheese-name">Karst</h3>
+          <p class="cheese-desc">Inspired by the limestone landscape that raises our goats.</p>
+        </a>
+        <a href="https://www.st-tola.ie/products/st-tola-divine" target="_blank" rel="noopener" class="cheese-card" data-reveal>
+          <div class="cheese-tag">Aged</div>
+          <div class="cheese-img"><img src="https://www.st-tola.ie/sites/st-tola.ie/files/styles/circle/public/div_crop2.jpg" alt="St Tola Divine"></div>
+          <h3 class="cheese-name">Divine</h3>
+          <p class="cheese-desc">A mature, complex cheese for cheeseboards and connoisseurs.</p>
+        </a>
+        <a href="https://www.st-tola.ie/products/st-tola-original" target="_blank" rel="noopener" class="cheese-card" data-reveal>
+          <div class="cheese-img"><img src="https://www.st-tola.ie/sites/st-tola.ie/files/styles/circle/public/_l1a4481-edit.jpg" alt="St Tola Original"></div>
+          <h3 class="cheese-name">Original</h3>
+          <p class="cheese-desc">Fresh, soft, milky. The cheese that started it all.</p>
+        </a>
+        <a href="https://www.st-tola.ie/organiccheese/st-tola-cranberry" target="_blank" rel="noopener" class="cheese-card" data-reveal>
+          <div class="cheese-img"><img src="https://www.st-tola.ie/sites/st-tola.ie/files/styles/circle/public/_l1a4482-edit_1.jpg" alt="St Tola Cranberry"></div>
+          <h3 class="cheese-name">Cranberry</h3>
+          <p class="cheese-desc">Studded with cranberries. A festive favourite all year round.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SAMPLER / TASTING FLIGHT ===== -->
+  <section class="sampler" id="sampler">
+    <div class="sampler-topo"></div>
+    <div class="container">
+      <div class="sampler-head">
+        <div class="section-eyebrow" data-reveal>The Tasting Flight</div>
+        <h2 class="section-title" data-reveal>Three cheeses, three landscapes, <em>one herd.</em></h2>
+        <p class="section-intro" data-reveal>If you're new to St Tola, this is where to start. A signature, a showpiece, and a wildcard, each with a story shaped by the season and the milk.</p>
+      </div>
+
+      <div class="flight">
+
+        <!-- Flight 1 -->
+        <div class="flight-item" data-reveal>
+          <div class="flight-visual">
+            <div class="flight-circle-bg"></div>
+            <div class="flight-img">
+              <img src="https://www.st-tola.ie/sites/st-tola.ie/files/styles/circle/public/mature_log_new__0.jpg" alt="St Tola Log">
+            </div>
+            <div class="flight-number"><em>01</em></div>
+          </div>
+          <div class="flight-content">
+            <div class="flight-eyebrow">The Signature · Since 1999</div>
+            <h3>St Tola <em>Log</em></h3>
+            <p>The cheese that put us on the map. A soft, natural-rind goat log with a clean citrus snap and a creamy, melting interior. Eaten fresh it's bright and grassy. Aged a few weeks longer it deepens into something more complex.</p>
+            <div class="tasting-notes">
+              <div class="tasting-note">
+                <div class="tn-label">Texture</div>
+                <div class="tn-value">Creamy, soft rind</div>
+              </div>
+              <div class="tasting-note">
+                <div class="tn-label">Notes</div>
+                <div class="tn-value">Citrus, fresh hay, herbs</div>
+              </div>
+              <div class="tasting-note">
+                <div class="tn-label">Format</div>
+                <div class="tn-value">200g log</div>
+              </div>
+              <div class="tasting-note">
+                <div class="tn-label">Best at</div>
+                <div class="tn-value">Room temperature</div>
+              </div>
+            </div>
+            <div class="pairings">
+              <span class="pairing">Sancerre</span>
+              <span class="pairing">Sourdough</span>
+              <span class="pairing">Honey</span>
+              <span class="pairing">Walnut</span>
+              <span class="pairing">Fig</span>
+            </div>
+            <a href="https://www.st-tola.ie/products/st-tola-log" target="_blank" rel="noopener" class="flight-cta">
+              See St Tola Log
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Flight 2 -->
+        <div class="flight-item reverse" data-reveal>
+          <div class="flight-visual">
+            <div class="flight-circle-bg"></div>
+            <div class="flight-img">
+              <img src="https://www.st-tola.ie/sites/st-tola.ie/files/styles/circle/public/_l1a4468-edit.jpg" alt="St Tola Ash Log">
+            </div>
+            <div class="flight-number"><em>02</em></div>
+          </div>
+          <div class="flight-content">
+            <div class="flight-eyebrow">The Showpiece · Cheeseboard hero</div>
+            <h3>Ash <em>Log</em></h3>
+            <p>Our Log, rolled in fine vegetable ash and matured. The result is dramatic on the board, soft and silky underneath, with a deeper, more mineral flavour that holds up against bold company. The cheese chefs reach for when they want a moment on the plate.</p>
+            <div class="tasting-notes">
+              <div class="tasting-note">
+                <div class="tn-label">Texture</div>
+                <div class="tn-value">Velvety, slight chew</div>
+              </div>
+              <div class="tasting-note">
+                <div class="tn-label">Notes</div>
+                <div class="tn-value">Mineral, mushroom, cream</div>
+              </div>
+              <div class="tasting-note">
+                <div class="tn-label">Rind</div>
+                <div class="tn-value">Vegetable ash</div>
+              </div>
+              <div class="tasting-note">
+                <div class="tn-label">Best at</div>
+                <div class="tn-value">Centre of the board</div>
+              </div>
+            </div>
+            <div class="pairings">
+              <span class="pairing">Pinot Noir</span>
+              <span class="pairing">Beetroot</span>
+              <span class="pairing">Hazelnut</span>
+              <span class="pairing">Dark rye</span>
+              <span class="pairing">Black grape</span>
+            </div>
+            <a href="https://www.st-tola.ie/organiccheese/st-tola-ash-log" target="_blank" rel="noopener" class="flight-cta">
+              See Ash Log
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Flight 3 -->
+        <div class="flight-item" data-reveal>
+          <div class="flight-visual">
+            <div class="flight-circle-bg"></div>
+            <div class="flight-img">
+              <img src="https://www.st-tola.ie/sites/st-tola.ie/files/styles/circle/public/_l1a4504-edit.jpg" alt="St Tola Greek Style">
+            </div>
+            <div class="flight-number"><em>03</em></div>
+          </div>
+          <div class="flight-content">
+            <div class="flight-eyebrow">The Wildcard · The summer cheese</div>
+            <h3>Greek <em>Style</em></h3>
+            <p>Goat's milk, brined and rested. Bright, salty, crumbly, and properly versatile. Folded through warm grains, baked over roasted vegetables, scattered through a salad with watermelon and mint. The cheese that quietly takes over your fridge in July.</p>
+            <div class="tasting-notes">
+              <div class="tasting-note">
+                <div class="tn-label">Texture</div>
+                <div class="tn-value">Firm, crumbly</div>
+              </div>
+              <div class="tasting-note">
+                <div class="tn-label">Notes</div>
+                <div class="tn-value">Bright, briny, tangy</div>
+              </div>
+              <div class="tasting-note">
+                <div class="tn-label">Format</div>
+                <div class="tn-value">In brine</div>
+              </div>
+              <div class="tasting-note">
+                <div class="tn-label">Best for</div>
+                <div class="tn-value">Salads, grains, roasting</div>
+              </div>
+            </div>
+            <div class="pairings">
+              <span class="pairing">Assyrtiko</span>
+              <span class="pairing">Watermelon</span>
+              <span class="pairing">Mint</span>
+              <span class="pairing">Olive oil</span>
+              <span class="pairing">Tomato</span>
+            </div>
+            <a href="https://www.st-tola.ie/products/st-tola-greek-style" target="_blank" rel="noopener" class="flight-cta">
+              See Greek Style
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <div style="text-align: center; margin-top: 80px;" data-reveal>
+        <a href="https://st-tola-irish-goat-cheese.myshopify.com/" target="_blank" rel="noopener" class="btn btn-primary">
+          Build a tasting box
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CRAFT / PROCESS ===== -->
+  <section class="craft" id="craft">
+    <svg class="craft-leaf t" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+      <path d="M100 20 Q140 60 130 120 Q120 170 90 180 Q60 140 70 80 Q80 30 100 20 Z" fill="#ffffff"/>
+    </svg>
+    <div class="container">
+      <div class="section-eyebrow" data-reveal>The Craft</div>
+      <h2 class="section-title" data-reveal>From <em>limestone pasture</em> to your kitchen, in four unhurried steps.</h2>
+      <p class="section-intro" data-reveal style="color: rgba(250, 246, 237, 0.75);">There are no shortcuts in goat cheese. Each batch takes its time, guided by the season and the milk.</p>
+
+      <div class="steps">
+        <div class="step" data-reveal>
+          <div class="step-num">01</div>
+          <h4>Graze</h4>
+          <p>Our herd grazes the limestone-rich pastures of west Clare. The land shapes the milk.</p>
+        </div>
+        <div class="step" data-reveal>
+          <div class="step-num">02</div>
+          <h4>Milk</h4>
+          <p>Milked once daily in a small parlour, so the goats and the cheesemakers can keep pace.</p>
+        </div>
+        <div class="step" data-reveal>
+          <div class="step-num">03</div>
+          <h4>Make</h4>
+          <p>Cultures added. Curd separated. Drained and shaped by hand. Vegetarian rennet, always.</p>
+        </div>
+        <div class="step" data-reveal>
+          <div class="step-num">04</div>
+          <h4>Age</h4>
+          <p>Some cheeses are fresh and quick. Others rest for weeks, developing rind and depth.</p>
+        </div>
+      </div>
+
+      <div class="craft-strip" data-reveal>
+        <figure class="craft-shot">
+          <img src="assets/img/craft-milking.jpg" alt="The milking parlour at St Tola" loading="lazy" width="661" height="1000">
+          <span><small>Milk</small>The parlour</span>
+        </figure>
+        <figure class="craft-shot">
+          <img src="assets/img/craft-curd.jpg" alt="Ladling fresh goat's milk curd" loading="lazy" width="1000" height="661">
+          <span><small>Make</small>The curd</span>
+        </figure>
+        <figure class="craft-shot">
+          <img src="assets/img/craft-shaping.jpg" alt="Shaping a St Tola log by hand" loading="lazy" width="1000" height="661">
+          <span><small>Shape</small>By hand</span>
+        </figure>
+        <figure class="craft-shot">
+          <img src="assets/img/craft-aging.jpg" alt="Cheeses maturing on the ageing room shelves" loading="lazy" width="1000" height="661">
+          <span><small>Age</small>The maturing room</span>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== AWARDS ===== -->
+  <section class="awards" id="awards">
+    <div class="container">
+      <div class="section-eyebrow" data-reveal>Recognition</div>
+      <h2 class="section-title" data-reveal>Quietly collecting trophies. <em>For a quarter of a century.</em></h2>
+
+      <div class="awards-grid">
+        <div class="awards-image" data-reveal>
+          <img src="assets/img/cheesemaker-wheels.jpg" alt="A St Tola cheesemaker with maturing cheese on the racks" loading="lazy" width="1300" height="867">
+        </div>
+        <div class="awards-list">
+          <div class="award-item" data-reveal>
+            <div class="award-year">2025</div>
+            <div class="award-text">
+              <h4>Georgina Campbell Food Tourism Experience</h4>
+              <p>The first ever winner of this award, for welcoming visitors to meet the herd and taste the cheese.</p>
+            </div>
+            <div class="award-badge">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.4 7.4H22l-6.2 4.5 2.4 7.4L12 16.8 5.8 21.3l2.4-7.4L2 9.4h7.6z"/></svg>
+            </div>
+          </div>
+          <div class="award-item" data-reveal>
+            <div class="award-year">2025</div>
+            <div class="award-text">
+              <h4>World Cheese Awards Super Gold</h4>
+              <p>One of the most prestigious recognitions in global cheesemaking.</p>
+            </div>
+            <div class="award-badge">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.4 7.4H22l-6.2 4.5 2.4 7.4L12 16.8 5.8 21.3l2.4-7.4L2 9.4h7.6z"/></svg>
+            </div>
+          </div>
+          <div class="award-item" data-reveal>
+            <div class="award-year">2026</div>
+            <div class="award-text">
+              <h4>Featured at the Michelin Guide Awards</h4>
+              <p>Showcased on La Rousse Foods' Irish display at the Michelin Guide Awards UK & Ireland.</p>
+            </div>
+            <div class="award-badge">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.4 7.4H22l-6.2 4.5 2.4 7.4L12 16.8 5.8 21.3l2.4-7.4L2 9.4h7.6z"/></svg>
+            </div>
+          </div>
+          <div class="award-item" data-reveal>
+            <div class="award-year">2024</div>
+            <div class="award-text">
+              <h4>BBC Feature with Liz Bonnin & Anna Haugh</h4>
+              <p>St Tola featured on BBC, with Siobhán hosting Liz Bonnin and chef Anna Haugh on the farm.</p>
+            </div>
+            <div class="award-badge">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.4 7.4H22l-6.2 4.5 2.4 7.4L12 16.8 5.8 21.3l2.4-7.4L2 9.4h7.6z"/></svg>
+            </div>
+          </div>
+          <div class="award-item" data-reveal>
+            <div class="award-year">Past</div>
+            <div class="award-text">
+              <h4>Served at The Savoy, London</h4>
+              <p>St Tola has graced the menus of some of the finest restaurants in Britain and Ireland.</p>
+            </div>
+            <div class="award-badge">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.4 7.4H22l-6.2 4.5 2.4 7.4L12 16.8 5.8 21.3l2.4-7.4L2 9.4h7.6z"/></svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== QUOTE BAND ===== -->
+  <section class="quote-band">
+    <div class="container">
+      <div class="quote-band-inner" data-reveal>
+        <blockquote>
+          "St Tola is the kind of cheese that reminds you what Irish farmhouse cheese can be. Distinctive, alive, made by hands that know the herd."
+        </blockquote>
+        <cite>
+          A chef's note
+          <span>One of many kind things said over twenty-five years</span>
+        </cite>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GALLERY ===== -->
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <div class="gallery-head" data-reveal>
+        <div class="section-eyebrow">From the Farm</div>
+        <h2 class="section-title">The herd, the <em>Burren,</em> the work.</h2>
+        <p class="section-intro">A year on the farm at Inagh, photographed in colour and on Tri-X film. The goats, the limestone, and the slow daily work behind every cheese.</p>
+      </div>
+      <div class="gallery-masonry" data-reveal>
+        <figure class="gallery-item"><img src="assets/img/gal-goats-row.jpg" alt="The St Tola goats at the feed rail" loading="lazy" width="1400" height="1050"><figcaption>The herd at the rail</figcaption></figure>
+        <figure class="gallery-item"><img src="assets/img/gal-bw-walk.jpg" alt="Walking the land in winter, on Tri-X film" loading="lazy" width="1400" height="928"><figcaption>Walking the land · Tri-X</figcaption></figure>
+        <figure class="gallery-item"><img src="assets/img/gal-karst.jpg" alt="The Burren limestone landscape" loading="lazy" width="1081" height="736"><figcaption>The Burren karst</figcaption></figure>
+        <figure class="gallery-item"><img src="assets/img/gal-goat-face.jpg" alt="A St Tola goat looking at the camera" loading="lazy" width="1200" height="793"><figcaption>One of the herd</figcaption></figure>
+        <figure class="gallery-item"><img src="assets/img/gal-fields.jpg" alt="The green pastures of west Clare" loading="lazy" width="1400" height="926"><figcaption>West Clare pasture</figcaption></figure>
+        <figure class="gallery-item"><img src="assets/img/gal-goats-fence.jpg" alt="Goats peering through the gate" loading="lazy" width="1400" height="933"><figcaption>At the gate</figcaption></figure>
+        <figure class="gallery-item"><img src="assets/img/gal-vat.jpg" alt="Stirring the curd in the make room" loading="lazy" width="1200" height="793"><figcaption>In the make room</figcaption></figure>
+        <figure class="gallery-item"><img src="assets/img/gal-black-goat.jpg" alt="A horned goat in the herd" loading="lazy" width="1200" height="793"><figcaption>Character of the herd</figcaption></figure>
+        <figure class="gallery-item"><img src="assets/img/gal-bw-land.jpg" alt="The Clare countryside on Tri-X film" loading="lazy" width="1400" height="928"><figcaption>The valley · Tri-X</figcaption></figure>
+        <figure class="gallery-item"><img src="assets/img/gal-kids.jpg" alt="Spring kids in the straw" loading="lazy" width="1200" height="793"><figcaption>Spring kids</figcaption></figure>
+        <figure class="gallery-item"><img src="assets/img/gal-farmer.jpg" alt="A farmer among the goats" loading="lazy" width="1300" height="860"><figcaption>Among the herd</figcaption></figure>
+        <figure class="gallery-item"><img src="assets/img/gal-bw-board.jpg" alt="A cheeseboard photographed on Tri-X film" loading="lazy" width="1300" height="862"><figcaption>The finished board · Tri-X</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== RECIPES ===== -->
+  <section class="recipes" id="recipes">
+    <div class="container">
+      <div class="recipes-header">
+        <div data-reveal>
+          <div class="section-eyebrow">From the Kitchens</div>
+          <h2 class="section-title">Cooked by <em>Ireland's best.</em></h2>
+        </div>
+        <p class="section-intro" data-reveal>Chefs across Ireland reach for St Tola when they want something honest, distinctive and unmistakably Irish on the plate.</p>
+      </div>
+
+      <div class="recipe-grid">
+        <a href="https://www.st-tola.ie/node/911" target="_blank" rel="noopener" class="recipe-card" data-reveal>
+          <img src="https://www.st-tola.ie/sites/st-tola.ie/files/styles/full_saint/public/hylands_.jpg" alt="St Tola mousse">
+          <div class="recipe-meta">
+            <div class="chef">Vishnu Natarajan · Hylands Hotel</div>
+            <h4>St Tola Mousse with Beluga Lentils</h4>
+          </div>
+        </a>
+        <a href="https://www.st-tola.ie/node/755" target="_blank" rel="noopener" class="recipe-card" data-reveal>
+          <img src="https://www.st-tola.ie/sites/st-tola.ie/files/styles/full_saint/public/cropped_cauli_.jpeg" alt="Cauliflower gratin">
+          <div class="recipe-meta">
+            <div class="chef">Chef Shane Smith</div>
+            <h4>Ultimate Cauliflower Cheese Gratin</h4>
+          </div>
+        </a>
+        <a href="https://www.st-tola.ie/recipes/st-tola-goats-cheese-sweet-potato-croquettes" target="_blank" rel="noopener" class="recipe-card" data-reveal>
+          <img src="https://www.st-tola.ie/sites/st-tola.ie/files/styles/full_saint/public/goats_cheese_croquettes_0.jpg" alt="Sweet potato croquettes">
+          <div class="recipe-meta">
+            <div class="chef">JP McMahon · Aniar & Cava</div>
+            <h4>Sweet Potato Croquettes with St Tola</h4>
+          </div>
+        </a>
+        <a href="https://www.st-tola.ie/node/875" target="_blank" rel="noopener" class="recipe-card" data-reveal>
+          <img src="https://www.st-tola.ie/sites/st-tola.ie/files/styles/full_saint/public/squash_kai.jpg" alt="Stuffed squash">
+          <div class="recipe-meta">
+            <div class="chef">Hannah O'Donnell · Kai Galway</div>
+            <h4>Quinoa & Pecan Stuffed Squash</h4>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FARM VISIT ===== -->
+  <section class="visit" id="visit">
+    <div class="container">
+      <div class="visit-inner" data-reveal>
+        <div class="visit-text">
+          <div class="section-eyebrow">Come see for yourself</div>
+          <h2>Visit the farm. <em>Meet the goats.</em></h2>
+          <p>Throughout the season we open our gates for public tours. Walk the pastures, see the milking parlour, taste the full range, and find out exactly why our cheese tastes the way it does. The goats are very friendly. The cheese is very good.</p>
+          <a href="https://www.st-tola.ie/irishcheese/visting-our-goat-farm" target="_blank" rel="noopener" class="btn btn-light">
+            Plan your visit
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+        <div class="visit-img" style="background-image: url('assets/img/farm-gate.jpg');" role="img" aria-label="The St Tola team at the farm gate with the goats"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section class="faq" id="faq">
+    <div class="container">
+      <div style="text-align: center;" data-reveal>
+        <div class="section-eyebrow" style="display: inline-flex;">Questions</div>
+        <h2 class="section-title" style="margin: 0 auto;">Things people <em>ask us.</em></h2>
+      </div>
+      <div class="faq-inner">
+        <div class="faq-item" data-reveal>
+          <button class="faq-q">Where can I buy St Tola cheese?</button>
+          <div class="faq-a"><p>St Tola is stocked in good cheesemongers, delis and supermarkets across Ireland and abroad, including Neal's Yard in London. You can also order directly from our online shop. See the full stockists list on our Stockists page.</p></div>
+        </div>
+        <div class="faq-item" data-reveal>
+          <button class="faq-q">Is St Tola cheese suitable for vegetarians?</button>
+          <div class="faq-a"><p>Yes. All St Tola cheeses are made with vegetarian rennet.</p></div>
+        </div>
+        <div class="faq-item" data-reveal>
+          <button class="faq-q">Can I visit the farm?</button>
+          <div class="faq-a"><p>Yes. We host public farm tours throughout the season where you can meet the goats, see the milking parlour and taste our full range. Check our News page for upcoming dates and to book a place.</p></div>
+        </div>
+        <div class="faq-item" data-reveal>
+          <button class="faq-q">How should I store St Tola cheese?</button>
+          <div class="faq-a"><p>Keep it refrigerated between 2 and 8 degrees Celsius. For the best flavour, take it out of the fridge about 30 minutes before serving so it can come to room temperature.</p></div>
+        </div>
+        <div class="faq-item" data-reveal>
+          <button class="faq-q">Do you ship internationally?</button>
+          <div class="faq-a"><p>Our online shop ships within Ireland. For international orders or wholesale enquiries, please get in touch directly via the contact form below.</p></div>
+        </div>
+        <div class="faq-item" data-reveal>
+          <button class="faq-q">Which cheese should I start with?</button>
+          <div class="faq-a"><p>Most people begin with the St Tola Log. It's our signature and a great introduction to the flavour of our milk. From there, the Ash Log and Crottin are the most popular next steps.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-eyebrow" data-reveal>Get in touch</div>
+      <h2 class="section-title" data-reveal>Stockists, wholesale, <em>or just to say hello.</em></h2>
+
+      <div class="contact-grid">
+        <div class="contact-info" data-reveal>
+          <p>We answer every message ourselves. Whether you're a chef, a retailer, a journalist or simply a fan of the cheese, drop us a line.</p>
+
+          <ul class="contact-list">
+            <li>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.13.96.37 1.9.72 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.91.35 1.85.59 2.81.72A2 2 0 0122 16.92z"/></svg>
+              <a href="tel:+353656836633">+353 65 68 36633</a>
+            </li>
+            <li>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              <a href="mailto:info@st-tola.ie">info@st-tola.ie</a>
+            </li>
+            <li>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <span>Gortbofearna, Ennistymon, Co Clare, V95 XA9C</span>
+            </li>
+          </ul>
+        </div>
+
+        <form class="form" action="https://formspree.io/f/FORM-ID" method="POST" data-reveal>
+          <!-- TODO: Replace FORM-ID with your Formspree form ID -->
+          <input type="text" name="name" placeholder="Your name" required>
+          <input type="email" name="email" placeholder="Email address" required>
+          <input type="text" name="subject" placeholder="What's this about?">
+          <textarea name="message" placeholder="Your message" required></textarea>
+          <button type="submit">Send message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="brand">
+            <span class="brand-mark">St</span>
+            St Tola
+          </a>
+          <p>Handmade Irish goat cheese from the edge of the Burren. Inagh Farmhouse Cheese Ltd.</p>
+          <div class="footer-socials">
+            <a href="https://www.facebook.com/sainttola/" target="_blank" rel="noopener" aria-label="Facebook">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M22 12c0-5.5-4.5-10-10-10S2 6.5 2 12c0 5 3.7 9.1 8.4 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5H15c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.3v7C18.3 21.1 22 17 22 12z"/></svg>
+            </a>
+            <a href="https://www.instagram.com/st.tolaqueen/" target="_blank" rel="noopener" aria-label="Instagram">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <a href="https://twitter.com/sttolacheese" target="_blank" rel="noopener" aria-label="Twitter / X">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <h5>Explore</h5>
+          <ul>
+            <li><a href="#story">Our Story</a></li>
+            <li><a href="#cheeses">The Cheeses</a></li>
+            <li><a href="#craft">The Craft</a></li>
+            <li><a href="#recipes">Recipes</a></li>
+            <li><a href="#visit">Farm Visits</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h5>Buy</h5>
+          <ul>
+            <li><a href="https://st-tola-irish-goat-cheese.myshopify.com/" target="_blank" rel="noopener">Shop Online</a></li>
+            <li><a href="https://www.st-tola.ie/shops" target="_blank" rel="noopener">Stockists</a></li>
+            <li><a href="#contact">Wholesale</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h5>Visit Us</h5>
+          <ul>
+            <li>Gortbofearna</li>
+            <li>Ennistymon</li>
+            <li>Co Clare, V95 XA9C</li>
+            <li><a href="tel:+353656836633">+353 65 68 36633</a></li>
+            <li><a href="mailto:info@st-tola.ie">info@st-tola.ie</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© <span id="year"></span> Inagh Farmhouse Cheese Ltd. Company Reg. No. 302417 · Dept. of Agriculture: IE 1822 EC</div>
+        <div>Made with care in Co Clare</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== FLOATING BUTTONS ===== -->
+  <button class="chat-btn" id="chat-btn" aria-label="Open chat">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+    <span class="chat-badge">1</span>
+  </button>
+
+  <div class="chat-window" id="chat-window">
+    <div class="chat-header">
+      <div class="chat-header-info">
+        <div class="chat-avatar">St</div>
+        <div class="chat-header-text">
+          <h6>St Tola</h6>
+          <div class="chat-status">Usually replies in minutes</div>
+        </div>
+      </div>
+      <button class="chat-close" id="chat-close" aria-label="Close chat">&times;</button>
+    </div>
+    <div class="chat-messages" id="chat-messages">
+      <div class="msg bot">Hi there! Welcome to St Tola. How can we help you today?</div>
+    </div>
+    <div class="chat-chips" id="chat-chips">
+      <button class="chip" data-q="Where can I buy your cheese?">Where to buy</button>
+      <button class="chip" data-q="Can I visit the farm?">Farm visits</button>
+      <button class="chip" data-q="Tell me about your cheeses">The cheeses</button>
+      <button class="chip" data-q="Wholesale">Wholesale</button>
+    </div>
+    <div class="chat-input-row">
+      <input type="text" id="chat-input" placeholder="Type a message...">
+      <button class="chat-send" id="chat-send" aria-label="Send">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+      </button>
+    </div>
+    <a href="https://wa.me/353656836633?text=Hi%20St%20Tola%2C%20I%20found%20you%20online%20and%20I%27d%20like%20to%20ask%20about..." target="_blank" rel="noopener" class="chat-wa">Continue on WhatsApp</a>
+  </div>
+
+  <a href="https://wa.me/353656836633?text=Hi%20St%20Tola%2C%20I%20found%20you%20online%20and%20I%27d%20like%20to%20ask%20about..." target="_blank" rel="noopener" class="whatsapp-float" aria-label="Chat on WhatsApp">
+    <div class="wa-tooltip">WhatsApp us</div>
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.002-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <script>
+    // Year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Nav scroll
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('scrolled', window.scrollY > 30);
+    });
+
+    // Hamburger
+    document.getElementById('hamburger').addEventListener('click', () => {
+      document.getElementById('nav-links').classList.toggle('open');
+    });
+    document.querySelectorAll('.nav-links a').forEach(a => {
+      a.addEventListener('click', () => document.getElementById('nav-links').classList.remove('open'));
+    });
+
+    // Scroll reveals
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.style.opacity = '1';
+          entry.target.style.transform = 'translateY(0)';
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.08 });
+
+    document.querySelectorAll('[data-reveal]').forEach((el, i) => {
+      el.style.opacity = '0';
+      el.style.transform = 'translateY(32px)';
+      el.style.transition = `opacity 0.7s ease ${i * 0.04}s, transform 0.7s cubic-bezier(.34,1.56,.64,1) ${i * 0.04}s`;
+      observer.observe(el);
+    });
+
+    // FAQ
+    document.querySelectorAll('.faq-q').forEach(q => {
+      q.addEventListener('click', () => {
+        q.parentElement.classList.toggle('open');
+      });
+    });
+
+    // Chat
+    const chatBtn = document.getElementById('chat-btn');
+    const chatWindow = document.getElementById('chat-window');
+    const chatClose = document.getElementById('chat-close');
+    const chatMessages = document.getElementById('chat-messages');
+    const chatInput = document.getElementById('chat-input');
+    const chatSend = document.getElementById('chat-send');
+    const chatChips = document.getElementById('chat-chips');
+    const chatBadge = chatBtn.querySelector('.chat-badge');
+
+    chatBtn.addEventListener('click', () => {
+      chatWindow.classList.toggle('open');
+      chatBadge.style.display = 'none';
+    });
+    chatClose.addEventListener('click', () => chatWindow.classList.remove('open'));
+
+    const KB = [
+      { keys: ['buy', 'stockist', 'shop', 'where', 'find', 'purchase', 'order'], reply: "You can order directly from our online shop at st-tola-irish-goat-cheese.myshopify.com, or find us in good cheesemongers, delis and supermarkets across Ireland (and at Neal's Yard in London). Full stockists list is on the Stockists page." },
+      { keys: ['visit', 'tour', 'farm', 'goat', 'see', 'come'], reply: "Yes! We run public farm tours throughout the season. You can meet the goats, see the milking parlour and taste the full range. Check our News page for upcoming dates and to book." },
+      { keys: ['price', 'cost', 'how much'], reply: "Pricing depends on the cheese and the format. Best place to see prices is our online shop, or get in touch for wholesale and stockist enquiries." },
+      { keys: ['vegetarian', 'rennet'], reply: "Yes, all St Tola cheeses are made with vegetarian rennet." },
+      { keys: ['cheese', 'product', 'range', 'log', 'ash', 'crottin', 'divine', 'karst', 'greek', 'cranberry'], reply: "We make 10 distinct cheeses, from the much-loved St Tola Log and dramatic Ash Log to the briny Greek Style and our aged Divine. Scroll up to the Cheeses section to see them all." },
+      { keys: ['wholesale', 'retail', 'restaurant', 'chef'], reply: "We work with retailers, chefs and restaurants across Ireland and abroad. Drop us a line at info@st-tola.ie or use the contact form on the page and we'll get back to you." },
+      { keys: ['ship', 'delivery', 'post'], reply: "Our online shop ships within Ireland. For international or wholesale orders, please email info@st-tola.ie." },
+      { keys: ['store', 'storage', 'keep', 'fridge'], reply: "Keep your St Tola refrigerated between 2 and 8°C, and take it out about 30 minutes before serving to bring out the full flavour." },
+      { keys: ['hours', 'open', 'when'], reply: "We're a working farm, so visits are by tour only. Email info@st-tola.ie or call +353 65 68 36633 to arrange." },
+      { keys: ['siobhan', 'meg', 'derrick', 'history', 'story', 'start'], reply: "St Tola was started by Meg and Derrick Gordon. Their neighbour Siobhán Ní Gháirbhith took over in 1999 and has run it ever since. There's a full history in the Story section above." }
+    ];
+
+    function botReply(text) {
+      const lower = text.toLowerCase();
+      const match = KB.find(item => item.keys.some(k => lower.includes(k)));
+      return match ? match.reply : "Thanks for the message! For anything specific, you can reach us on info@st-tola.ie, +353 65 68 36633, or hit 'Continue on WhatsApp' below.";
+    }
+
+    function addMsg(text, type) {
+      const div = document.createElement('div');
+      div.className = 'msg ' + type;
+      div.textContent = text;
+      chatMessages.appendChild(div);
+      chatMessages.scrollTop = chatMessages.scrollHeight;
+    }
+
+    function handleSend(text) {
+      if (!text.trim()) return;
+      addMsg(text, 'user');
+      chatInput.value = '';
+      setTimeout(() => addMsg(botReply(text), 'bot'), 500);
+    }
+
+    chatSend.addEventListener('click', () => handleSend(chatInput.value));
+    chatInput.addEventListener('keypress', e => { if (e.key === 'Enter') handleSend(chatInput.value); });
+    chatChips.addEventListener('click', e => {
+      if (e.target.classList.contains('chip')) handleSend(e.target.dataset.q);
+    });
+  </script>
+
+</body>
+</html>

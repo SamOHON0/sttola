@@ -1,0 +1,4 @@
+# Original high-res photo library (not needed for the site; optimised copies live in assets/img)
+Photos/
+*.zip
+.DS_Store
