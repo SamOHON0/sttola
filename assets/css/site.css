@@ -18,7 +18,7 @@
       --radius-lg: 18px;
       --max: 1280px;
       --pad: clamp(20px, 4vw, 56px);
-      --display: 'Fraunces', Georgia, serif;
+      --display: 'Cormorant Garamond', Georgia, serif;
       --body: 'Inter', system-ui, sans-serif;
     }
 

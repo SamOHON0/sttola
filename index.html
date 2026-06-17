@@ -20,7 +20,7 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 
   <script type="application/ld+json">
   {
@@ -99,7 +99,7 @@
       --radius-lg: 18px;
       --max: 1280px;
       --pad: clamp(20px, 4vw, 56px);
-      --display: 'Fraunces', Georgia, serif;
+      --display: 'Cormorant Garamond', Georgia, serif;
       --body: 'Inter', system-ui, sans-serif;
     }
 
@@ -1734,6 +1734,28 @@
       .hero h1 { font-size: clamp(40px, 11vw, 60px); }
       .hero-content { max-width: 100%; }
     }
+
+    /* ===== HERO ARTISAN REFINEMENT ===== */
+    .hero h1 { font-weight: 600; letter-spacing: -0.018em; line-height: 1.02; }
+    .hero p.lead { font-size: clamp(17px, 1.45vw, 20px); max-width: 500px; line-height: 1.7; }
+    .hero-award {
+      display: inline-flex; align-items: center; gap: 15px;
+      margin-top: 44px; padding-top: 26px;
+      border-top: 1px solid rgba(247,242,233,0.2);
+    }
+    .hero-award .seal {
+      width: 48px; height: 48px; border-radius: 50%;
+      border: 1px solid rgba(216,178,122,0.65);
+      display: grid; place-items: center; color: #d8b27a; flex-shrink: 0;
+    }
+    .hero-award .aw-1 {
+      display: block; font-family: var(--body); font-size: 11px;
+      letter-spacing: 0.2em; text-transform: uppercase; color: rgba(247,242,233,0.7); margin-bottom: 3px;
+    }
+    .hero-award .aw-2 {
+      display: block; font-family: var(--display); font-style: italic; font-weight: 500;
+      font-size: 24px; color: #d8b27a; line-height: 1;
+    }
   </style>
 </head>
 <body>
@@ -1764,9 +1786,8 @@
     <div class="hero-scrim"></div>
     <div class="container hero-inner">
       <div class="hero-content" data-reveal>
-        <div class="hero-eyebrow">Inagh · Co Clare · Since 1999</div>
         <h1>Handmade goat cheese from the <em>edge of the Burren</em>.</h1>
-        <p class="lead">Small herd. Sustainable pastures. Cheese made the slow way, the way Siobhán has done it for twenty-five years. Internationally recognised. Locally rooted.</p>
+        <p class="lead">Made by hand in Inagh, Co Clare, from the milk of a single herd grazing the limestone hills of the Burren. The same way, by the same hands, since 1999.</p>
         <div class="hero-ctas">
           <a href="https://st-tola-irish-goat-cheese.myshopify.com/" target="_blank" rel="noopener" class="btn btn-primary">
             Shop Online
@@ -1774,41 +1795,13 @@
           </a>
           <a href="#story" class="btn btn-hero-ghost">Our Story</a>
         </div>
-        <div class="hero-meta">
-          <div class="hero-meta-item">
-            <div class="num">25+</div>
-            <div class="label">Years cheesemaking</div>
-          </div>
-          <div class="hero-meta-item">
-            <div class="num">10</div>
-            <div class="label">Distinct cheeses</div>
-          </div>
-          <div class="hero-meta-item">
-            <div class="num">Super<br>Gold</div>
-            <div class="label">World Cheese Awards</div>
-          </div>
+        <div class="hero-award" data-reveal>
+          <span class="seal"><svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.4 7.4H22l-6.2 4.5 2.4 7.4L12 16.8 5.8 21.3l2.4-7.4L2 9.4h7.6z"/></svg></span>
+          <span class="aw-text"><span class="aw-1">World Cheese Awards</span><span class="aw-2">Super Gold</span></span>
         </div>
       </div>
     </div>
   </section>
-
-  <!-- ===== MARQUEE ===== -->
-  <div class="marquee" aria-hidden="true">
-    <div class="marquee-track">
-      <div class="marquee-item">Handmade in Co Clare</div>
-      <div class="marquee-item">Pasture raised</div>
-      <div class="marquee-item">Vegetarian rennet</div>
-      <div class="marquee-item">Award winning</div>
-      <div class="marquee-item">Family farm</div>
-      <div class="marquee-item">Since 1999</div>
-      <div class="marquee-item">Handmade in Co Clare</div>
-      <div class="marquee-item">Pasture raised</div>
-      <div class="marquee-item">Vegetarian rennet</div>
-      <div class="marquee-item">Award winning</div>
-      <div class="marquee-item">Family farm</div>
-      <div class="marquee-item">Since 1999</div>
-    </div>
-  </div>
 
   <!-- ===== STORY ===== -->
   <section class="story" id="story">
