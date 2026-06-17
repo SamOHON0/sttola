@@ -1693,12 +1693,53 @@
     .gallery-item:hover figcaption { opacity: 1; transform: translateY(0); }
     @media (max-width: 900px) { .gallery-masonry { columns: 2; } .craft-strip { grid-template-columns: repeat(2, 1fr); } }
     @media (max-width: 560px) { .gallery-masonry { columns: 1; } }
+
+    /* ===== HERO BACKDROP OVERRIDE ===== */
+    .hero {
+      min-height: 100vh; min-height: 100dvh;
+      padding: 120px 0 76px;
+      background-color: #1a2426;
+      background-image: url('assets/img/hero-spread.jpg');
+      background-size: cover;
+      background-position: center 34%;
+      background-repeat: no-repeat;
+      align-items: center;
+    }
+    .hero-scrim {
+      position: absolute; inset: 0; z-index: 1; pointer-events: none;
+      background:
+        linear-gradient(180deg, rgba(16,22,23,0.72) 0%, rgba(16,22,23,0) 24%),
+        linear-gradient(96deg, rgba(16,22,23,0.92) 0%, rgba(16,22,23,0.62) 34%, rgba(16,22,23,0.14) 62%, rgba(16,22,23,0) 100%);
+    }
+    .hero-inner { position: relative; z-index: 2; width: 100%; }
+    .hero-content { max-width: 620px; }
+    .hero-eyebrow { color: #d8b27a; }
+    .hero-eyebrow::before { background: #d8b27a; }
+    .hero h1 { color: #f7f2e9; text-shadow: 0 2px 34px rgba(0,0,0,0.35); }
+    .hero h1 em { color: #aac596; }
+    .hero p.lead { color: rgba(247,242,233,0.86); }
+    .hero-meta { border-top-color: rgba(247,242,233,0.22); }
+    .hero-meta-item .num { color: #aac596; }
+    .hero-meta-item .label { color: rgba(247,242,233,0.7); }
+    .btn-hero-ghost { background: transparent; color: #f7f2e9; border: 1px solid rgba(247,242,233,0.55); }
+    .btn-hero-ghost:hover { background: #f7f2e9; color: var(--ink); transform: translateY(-2px); }
+    /* nav legibility over dark hero */
+    .nav.home-hero:not(.scrolled) .brand { color: #f7f2e9; }
+    .nav.home-hero:not(.scrolled) .nav-links a { color: rgba(247,242,233,0.85); }
+    .nav.home-hero:not(.scrolled) .nav-links a:hover { color: #fff; }
+    .nav.home-hero:not(.scrolled) .hamburger span { background: #f7f2e9; }
+    @media (max-width: 760px) {
+      .hero { background-position: center center; padding: 108px 0 56px; }
+      .hero-scrim { background: linear-gradient(180deg, rgba(16,22,23,0.78) 0%, rgba(16,22,23,0.3) 42%, rgba(16,22,23,0.58) 100%); }
+      .hero h1 { font-size: clamp(40px, 11vw, 60px); }
+      .hero-content { max-width: 100%; }
+    }
   </style>
 </head>
 <body>
 
   <!-- ===== NAV ===== -->
-  <nav class="nav" id="nav">
+  <nav class="nav home-hero" id="nav">
     <div class="container nav-inner">
       <a href="/" class="brand">
         <span class="brand-mark">St</span>
@@ -1719,18 +1760,9 @@
   </nav>
 
   <!-- ===== HERO ===== -->
-  <section class="hero">
-    <div class="hero-bg">
-      <!-- Decorative leaves -->
-      <svg class="leaf-accent l1" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-        <path d="M100 20 Q130 60 120 110 Q110 160 80 180 Q60 130 70 80 Q80 30 100 20 Z" fill="#2f4a2a"/>
-        <path d="M100 20 L90 180" stroke="#1f3019" stroke-width="1.5" fill="none"/>
-      </svg>
-      <svg class="leaf-accent l2" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-        <path d="M100 20 Q140 60 130 120 Q120 170 90 180 Q60 140 70 80 Q80 30 100 20 Z" fill="#6fa3bf"/>
-      </svg>
-    </div>
-    <div class="container hero-grid">
+  <section class="hero" id="top">
+    <div class="hero-scrim"></div>
+    <div class="container hero-inner">
       <div class="hero-content" data-reveal>
         <div class="hero-eyebrow">Inagh · Co Clare · Since 1999</div>
         <h1>Handmade goat cheese from the <em>edge of the Burren</em>.</h1>
@@ -1740,7 +1772,7 @@
             Shop Online
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
           </a>
-          <a href="#story" class="btn btn-ghost">Our Story</a>
+          <a href="#story" class="btn btn-hero-ghost">Our Story</a>
         </div>
         <div class="hero-meta">
           <div class="hero-meta-item">
@@ -1755,17 +1787,6 @@
             <div class="num">Super<br>Gold</div>
             <div class="label">World Cheese Awards</div>
           </div>
-        </div>
-      </div>
-      <div class="hero-visual" data-reveal>
-        <div class="hero-img-main">
-          <img src="assets/img/hero-goat.jpg" alt="A St Tola goat at the farm in Inagh, Co Clare" loading="eager" width="1700" height="1143">
-        </div>
-        <div class="hero-badge">
-          <span>World Cheese<br>Awards<br><em>Super Gold</em></span>
-        </div>
-        <div class="hero-img-accent">
-          <img src="assets/img/cheese-plated.jpg" alt="St Tola goat cheese plated for tasting" loading="eager" width="1300" height="859">
         </div>
       </div>
     </div>
