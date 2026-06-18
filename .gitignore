@@ -2,3 +2,7 @@
 Photos/
 *.zip
 .DS_Store
+
+# unused industrial shots, replaced in gallery
+assets/img/gal-vat.jpg
+assets/img/gal-hands.jpg
