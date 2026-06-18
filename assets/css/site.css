@@ -5,9 +5,9 @@
       --bg-sky: #d4e4ec;
       --ink: #1a2a32;
       --ink-soft: #3d5460;
-      --moss: #3d6b3a;
-      --moss-deep: #264a25;
-      --sage: #8aa37c;
+      --moss: #0b6f9e;
+      --moss-deep: #0a3a53;
+      --sage: #5f93b0;
       --sky: #6fa3bf;
       --sky-deep: #4a7d96;
       --ochre: #c08148;
@@ -151,7 +151,7 @@
       inset: 0;
       background:
         radial-gradient(ellipse at top right, rgba(111, 163, 191, 0.18), transparent 60%),
-        radial-gradient(ellipse at bottom left, rgba(61, 107, 58, 0.12), transparent 55%),
+        radial-gradient(ellipse at bottom left, rgba(11, 111, 158, 0.12), transparent 55%),
         radial-gradient(ellipse at top left, rgba(192, 129, 72, 0.06), transparent 50%);
     }
     .hero-grid {
@@ -228,7 +228,7 @@
     .btn-primary:hover {
       background: var(--moss-deep);
       transform: translateY(-2px);
-      box-shadow: 0 12px 30px -10px rgba(47, 74, 42, 0.5);
+      box-shadow: 0 12px 30px -10px rgba(10, 58, 83, 0.5);
     }
     .btn-ghost {
       background: transparent;
@@ -1296,7 +1296,7 @@
       color: var(--bg-cream);
       cursor: pointer;
       z-index: 90;
-      box-shadow: 0 8px 30px -5px rgba(47, 74, 42, 0.5);
+      box-shadow: 0 8px 30px -5px rgba(10, 58, 83, 0.5);
       transition: transform 0.25s;
       border: none;
     }
