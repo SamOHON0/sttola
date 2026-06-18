@@ -93,11 +93,11 @@
     .nav-links {
       display: flex;
       align-items: center;
-      gap: 32px;
+      gap: 22px;
       list-style: none;
     }
     .nav-links a {
-      font-size: 14px;
+      font-size: 13px;
       font-weight: 500;
       color: var(--ink-soft);
       transition: color 0.2s;
@@ -1471,6 +1471,12 @@
       font-weight: 500;
     }
 
+    @media (max-width: 1080px) {
+      .nav-links { display: none; }
+      .nav-links.open { display: flex; position: absolute; top: 100%; left: 0; right: 0; background: var(--bg-cream); flex-direction: column; padding: 24px; gap: 18px; border-bottom: 1px solid var(--line); }
+      .hamburger { display: block; }
+    }
+
     /* ===== RESPONSIVE ===== */
     @media (max-width: 968px) {
       .hero-grid { grid-template-columns: 1fr; gap: 60px; }
@@ -1714,3 +1720,21 @@
     .video-grid figcaption { margin-top: 12px; font-family: var(--display); font-size: 18px; color: var(--ink); }
     @media (max-width: 760px) { .video-grid { grid-template-columns: 1fr; } }
     .scheme-card a.inline { display: inline-block; margin-top: 10px; }
+
+    /* ===== TEAM ===== */
+    .team-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; margin-top: 8px; }
+    .team-member { background: var(--bg-cream); border: 1px solid var(--line); border-radius: var(--radius-lg); padding: 30px; }
+    .team-member .role { font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--moss); font-weight: 600; margin-bottom: 6px; }
+    .team-member h3 { font-family: var(--display); font-weight: 500; font-size: 24px; color: var(--ink); margin-bottom: 10px; letter-spacing: -0.01em; }
+    .team-member p { font-size: 15px; color: var(--ink-soft); line-height: 1.62; }
+    @media (max-width: 760px) { .team-grid { grid-template-columns: 1fr; } }
+
+    /* ===== NUTRITION TABLE ===== */
+    .nutri-wrap { overflow-x: auto; margin-top: 12px; border-radius: var(--radius-lg); border: 1px solid var(--line); }
+    .nutri-table { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 660px; }
+    .nutri-table th, .nutri-table td { text-align: left; padding: 14px 18px; border-bottom: 1px solid var(--line); }
+    .nutri-table tr:last-child td, .nutri-table tr:last-child th { border-bottom: none; }
+    .nutri-table thead th { font-family: var(--body); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-soft); font-weight: 600; background: var(--bg-warm); }
+    .nutri-table tbody th { font-family: var(--display); font-weight: 500; font-size: 16px; color: var(--ink); }
+    .nutri-table tbody tr:hover { background: var(--bg-warm); }
+    .faq .faq-inner { margin-top: 8px; }

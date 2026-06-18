@@ -174,11 +174,11 @@
     .nav-links {
       display: flex;
       align-items: center;
-      gap: 32px;
+      gap: 22px;
       list-style: none;
     }
     .nav-links a {
-      font-size: 14px;
+      font-size: 13px;
       font-weight: 500;
       color: var(--ink-soft);
       transition: color 0.2s;
@@ -1552,6 +1552,12 @@
       font-weight: 500;
     }
 
+    @media (max-width: 1080px) {
+      .nav-links { display: none; }
+      .nav-links.open { display: flex; position: absolute; top: 100%; left: 0; right: 0; background: var(--bg-cream); flex-direction: column; padding: 24px; gap: 18px; border-bottom: 1px solid var(--line); }
+      .hamburger { display: block; }
+    }
+
     /* ===== RESPONSIVE ===== */
     @media (max-width: 968px) {
       .hero-grid { grid-template-columns: 1fr; gap: 60px; }
@@ -1768,10 +1774,13 @@
         St Tola
       </a>
       <ul class="nav-links" id="nav-links">
-        <li><a href="/#cheeses">Cheeses</a></li>
-        <li><a href="/our-story">Our Story</a></li>
+        <li><a href="/news">News &amp; Media</a></li>
+        <li><a href="/recognition">Recognition</a></li>
         <li><a href="/sustainability">Sustainability</a></li>
-        <li><a href="/irishcheese/visting-our-goat-farm">Visit</a></li>
+        <li><a href="/health">Health</a></li>
+        <li><a href="/our-story">Stories</a></li>
+        <li><a href="/healthy-recipes">Recipes</a></li>
+        <li><a href="/irishcheese/visting-our-goat-farm">Farm Visits</a></li>
         <li><a href="/shops">Stockists</a></li>
         <li><a href="https://st-tola-irish-goat-cheese.myshopify.com/" target="_blank" rel="noopener" class="nav-cta">Shop Online</a></li>
       </ul>
@@ -2369,9 +2378,11 @@
           <h5>Explore</h5>
           <ul>
             <li><a href="/#cheeses">The Cheeses</a></li>
-            <li><a href="/our-story">Our Story</a></li>
-            <li><a href="/sustainability">Sustainability</a></li>
+            <li><a href="/our-story">Stories</a></li>
+            <li><a href="/news">News &amp; Media</a></li>
             <li><a href="/recognition">Recognition</a></li>
+            <li><a href="/sustainability">Sustainability</a></li>
+            <li><a href="/health">Health</a></li>
             <li><a href="/healthy-recipes">Recipes</a></li>
             <li><a href="/irishcheese/visting-our-goat-farm">Farm Visits</a></li>
           </ul>
